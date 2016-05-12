@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					A6CBEC191CE418F600F2E981 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LV56WS94ZG;
 					};
 					A6CBEC321CE418F700F2E981 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -415,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Hello Jenkins/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Gem.Hello-Jenkins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mailbox.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a175aca-faf4-413b-b5af-14732991e085";
 			};
 			name = Debug;
 		};
@@ -426,10 +430,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Global Enterprise Mobility (LV56WS94ZG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Global Enterprise Mobility (LV56WS94ZG)";
 				INFOPLIST_FILE = "Hello Jenkins/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Gem.Hello-Jenkins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mailbox.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a175aca-faf4-413b-b5af-14732991e085";
 			};
 			name = Release;
 		};
