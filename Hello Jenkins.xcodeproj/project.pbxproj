@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6CBEC1F1CE418F600F2E981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CBEC1E1CE418F600F2E981 /* main.m */; };
+		A6CBEC221CE418F600F2E981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CBEC211CE418F600F2E981 /* AppDelegate.m */; };
+		A6CBEC251CE418F600F2E981 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CBEC241CE418F600F2E981 /* ViewController.m */; };
+		A6CBEC281CE418F600F2E981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CBEC261CE418F600F2E981 /* Main.storyboard */; };
+		A6CBEC2A1CE418F700F2E981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CBEC291CE418F700F2E981 /* Assets.xcassets */; };
+		A6CBEC2D1CE418F700F2E981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CBEC2B1CE418F700F2E981 /* LaunchScreen.storyboard */; };
+		A6CBEC381CE418F700F2E981 /* Hello_JenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CBEC371CE418F700F2E981 /* Hello_JenkinsTests.m */; };
+		A6CBEC431CE418F700F2E981 /* Hello_JenkinsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CBEC421CE418F700F2E981 /* Hello_JenkinsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6CBEC341CE418F700F2E981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6CBEC121CE418F600F2E981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6CBEC191CE418F600F2E981;
+			remoteInfo = "Hello Jenkins";
+		};
+		A6CBEC3F1CE418F700F2E981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6CBEC121CE418F600F2E981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6CBEC191CE418F600F2E981;
+			remoteInfo = "Hello Jenkins";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6CBEC1A1CE418F600F2E981 /* Hello Jenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Jenkins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CBEC1E1CE418F600F2E981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6CBEC201CE418F600F2E981 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6CBEC211CE418F600F2E981 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6CBEC231CE418F600F2E981 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6CBEC241CE418F600F2E981 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6CBEC271CE418F600F2E981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6CBEC291CE418F700F2E981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6CBEC2C1CE418F700F2E981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6CBEC2E1CE418F700F2E981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6CBEC331CE418F700F2E981 /* Hello JenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello JenkinsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CBEC371CE418F700F2E981 /* Hello_JenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_JenkinsTests.m; sourceTree = "<group>"; };
+		A6CBEC391CE418F700F2E981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6CBEC3E1CE418F700F2E981 /* Hello JenkinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello JenkinsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CBEC421CE418F700F2E981 /* Hello_JenkinsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_JenkinsUITests.m; sourceTree = "<group>"; };
+		A6CBEC441CE418F700F2E981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6CBEC171CE418F600F2E981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CBEC301CE418F700F2E981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CBEC3B1CE418F700F2E981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6CBEC111CE418F600F2E981 = {
+			isa = PBXGroup;
+			children = (
+				A6CBEC1C1CE418F600F2E981 /* Hello Jenkins */,
+				A6CBEC361CE418F700F2E981 /* Hello JenkinsTests */,
+				A6CBEC411CE418F700F2E981 /* Hello JenkinsUITests */,
+				A6CBEC1B1CE418F600F2E981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6CBEC1B1CE418F600F2E981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6CBEC1A1CE418F600F2E981 /* Hello Jenkins.app */,
+				A6CBEC331CE418F700F2E981 /* Hello JenkinsTests.xctest */,
+				A6CBEC3E1CE418F700F2E981 /* Hello JenkinsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6CBEC1C1CE418F600F2E981 /* Hello Jenkins */ = {
+			isa = PBXGroup;
+			children = (
+				A6CBEC201CE418F600F2E981 /* AppDelegate.h */,
+				A6CBEC211CE418F600F2E981 /* AppDelegate.m */,
+				A6CBEC231CE418F600F2E981 /* ViewController.h */,
+				A6CBEC241CE418F600F2E981 /* ViewController.m */,
+				A6CBEC261CE418F600F2E981 /* Main.storyboard */,
+				A6CBEC291CE418F700F2E981 /* Assets.xcassets */,
+				A6CBEC2B1CE418F700F2E981 /* LaunchScreen.storyboard */,
+				A6CBEC2E1CE418F700F2E981 /* Info.plist */,
+				A6CBEC1D1CE418F600F2E981 /* Supporting Files */,
+			);
+			path = "Hello Jenkins";
+			sourceTree = "<group>";
+		};
+		A6CBEC1D1CE418F600F2E981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6CBEC1E1CE418F600F2E981 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6CBEC361CE418F700F2E981 /* Hello JenkinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6CBEC371CE418F700F2E981 /* Hello_JenkinsTests.m */,
+				A6CBEC391CE418F700F2E981 /* Info.plist */,
+			);
+			path = "Hello JenkinsTests";
+			sourceTree = "<group>";
+		};
+		A6CBEC411CE418F700F2E981 /* Hello JenkinsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6CBEC421CE418F700F2E981 /* Hello_JenkinsUITests.m */,
+				A6CBEC441CE418F700F2E981 /* Info.plist */,
+			);
+			path = "Hello JenkinsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6CBEC191CE418F600F2E981 /* Hello Jenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CBEC471CE418F700F2E981 /* Build configuration list for PBXNativeTarget "Hello Jenkins" */;
+			buildPhases = (
+				A6CBEC161CE418F600F2E981 /* Sources */,
+				A6CBEC171CE418F600F2E981 /* Frameworks */,
+				A6CBEC181CE418F600F2E981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello Jenkins";
+			productName = "Hello Jenkins";
+			productReference = A6CBEC1A1CE418F600F2E981 /* Hello Jenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6CBEC321CE418F700F2E981 /* Hello JenkinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CBEC4A1CE418F700F2E981 /* Build configuration list for PBXNativeTarget "Hello JenkinsTests" */;
+			buildPhases = (
+				A6CBEC2F1CE418F700F2E981 /* Sources */,
+				A6CBEC301CE418F700F2E981 /* Frameworks */,
+				A6CBEC311CE418F700F2E981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6CBEC351CE418F700F2E981 /* PBXTargetDependency */,
+			);
+			name = "Hello JenkinsTests";
+			productName = "Hello JenkinsTests";
+			productReference = A6CBEC331CE418F700F2E981 /* Hello JenkinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6CBEC3D1CE418F700F2E981 /* Hello JenkinsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CBEC4D1CE418F700F2E981 /* Build configuration list for PBXNativeTarget "Hello JenkinsUITests" */;
+			buildPhases = (
+				A6CBEC3A1CE418F700F2E981 /* Sources */,
+				A6CBEC3B1CE418F700F2E981 /* Frameworks */,
+				A6CBEC3C1CE418F700F2E981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6CBEC401CE418F700F2E981 /* PBXTargetDependency */,
+			);
+			name = "Hello JenkinsUITests";
+			productName = "Hello JenkinsUITests";
+			productReference = A6CBEC3E1CE418F700F2E981 /* Hello JenkinsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6CBEC121CE418F600F2E981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jenkins;
+				TargetAttributes = {
+					A6CBEC191CE418F600F2E981 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A6CBEC321CE418F700F2E981 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A6CBEC191CE418F600F2E981;
+					};
+					A6CBEC3D1CE418F700F2E981 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A6CBEC191CE418F600F2E981;
+					};
+				};
+			};
+			buildConfigurationList = A6CBEC151CE418F600F2E981 /* Build configuration list for PBXProject "Hello Jenkins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6CBEC111CE418F600F2E981;
+			productRefGroup = A6CBEC1B1CE418F600F2E981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6CBEC191CE418F600F2E981 /* Hello Jenkins */,
+				A6CBEC321CE418F700F2E981 /* Hello JenkinsTests */,
+				A6CBEC3D1CE418F700F2E981 /* Hello JenkinsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6CBEC181CE418F600F2E981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CBEC2D1CE418F700F2E981 /* LaunchScreen.storyboard in Resources */,
+				A6CBEC2A1CE418F700F2E981 /* Assets.xcassets in Resources */,
+				A6CBEC281CE418F600F2E981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CBEC311CE418F700F2E981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CBEC3C1CE418F700F2E981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6CBEC161CE418F600F2E981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CBEC251CE418F600F2E981 /* ViewController.m in Sources */,
+				A6CBEC221CE418F600F2E981 /* AppDelegate.m in Sources */,
+				A6CBEC1F1CE418F600F2E981 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CBEC2F1CE418F700F2E981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CBEC381CE418F700F2E981 /* Hello_JenkinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CBEC3A1CE418F700F2E981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CBEC431CE418F700F2E981 /* Hello_JenkinsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6CBEC351CE418F700F2E981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6CBEC191CE418F600F2E981 /* Hello Jenkins */;
+			targetProxy = A6CBEC341CE418F700F2E981 /* PBXContainerItemProxy */;
+		};
+		A6CBEC401CE418F700F2E981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6CBEC191CE418F600F2E981 /* Hello Jenkins */;
+			targetProxy = A6CBEC3F1CE418F700F2E981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6CBEC261CE418F600F2E981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6CBEC271CE418F600F2E981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6CBEC2B1CE418F700F2E981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6CBEC2C1CE418F700F2E981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6CBEC451CE418F700F2E981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6CBEC461CE418F700F2E981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6CBEC481CE418F700F2E981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hello Jenkins/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gem.Hello-Jenkins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6CBEC491CE418F700F2E981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hello Jenkins/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gem.Hello-Jenkins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6CBEC4B1CE418F700F2E981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hello JenkinsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gem.Hello-JenkinsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello Jenkins.app/Hello Jenkins";
+			};
+			name = Debug;
+		};
+		A6CBEC4C1CE418F700F2E981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hello JenkinsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gem.Hello-JenkinsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello Jenkins.app/Hello Jenkins";
+			};
+			name = Release;
+		};
+		A6CBEC4E1CE418F700F2E981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hello JenkinsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gem.Hello-JenkinsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hello Jenkins";
+			};
+			name = Debug;
+		};
+		A6CBEC4F1CE418F700F2E981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hello JenkinsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gem.Hello-JenkinsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hello Jenkins";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6CBEC151CE418F600F2E981 /* Build configuration list for PBXProject "Hello Jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CBEC451CE418F700F2E981 /* Debug */,
+				A6CBEC461CE418F700F2E981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CBEC471CE418F700F2E981 /* Build configuration list for PBXNativeTarget "Hello Jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CBEC481CE418F700F2E981 /* Debug */,
+				A6CBEC491CE418F700F2E981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6CBEC4A1CE418F700F2E981 /* Build configuration list for PBXNativeTarget "Hello JenkinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CBEC4B1CE418F700F2E981 /* Debug */,
+				A6CBEC4C1CE418F700F2E981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6CBEC4D1CE418F700F2E981 /* Build configuration list for PBXNativeTarget "Hello JenkinsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CBEC4E1CE418F700F2E981 /* Debug */,
+				A6CBEC4F1CE418F700F2E981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6CBEC121CE418F600F2E981 /* Project object */;
+}
